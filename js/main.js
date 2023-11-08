@@ -64,7 +64,21 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    nav_paises(); 
+    nav_paises();
+    
+    
+    // Obtén el botón por su ID
+    let miBoton = document.getElementById("btn-nuevo");
+
+    // Define la función que se ejecutará cuando se haga clic en el botón
+    function cambiarTextoDelBoton() {
+    miBoton.textContent = "¡Clickeado!";
+    }
+
+    // Agrega un "escuchador de eventos" al botón para que llame a la función cuando se haga clic
+    miBoton.addEventListener("click", cambiarTextoDelBoton);
+
+
     
 });
 
