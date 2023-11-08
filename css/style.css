@@ -97,7 +97,6 @@ ul{
 }
 
 table{
-  background-color: #ca9797;
   color: rgb(0, 0, 0);
 }
 td{
@@ -139,6 +138,7 @@ td.artistas{
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: blueviolet;
 }
 .formLogin form{
   width: 30%;
